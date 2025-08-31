@@ -23,7 +23,7 @@ class MetricService {
   /// Llama a GET /metricas y devuelve un Map<modelKey, ModelMetrics>.
   static Future<Map<String, ModelMetrics>> obtenerMetricas() async {
     //final url = Uri.parse('http://192.168.1.38:8000/metricas');
-    final url = Uri.parse('https://tallerevalhta-913203481005.europe-west1.run.app/metricas');
+    final url = Uri.parse('https://tallerevalhta-336670815560.europe-west1.run.app/metricas');
     final response = await http.get(url);
 
     if (response.statusCode != 200) {

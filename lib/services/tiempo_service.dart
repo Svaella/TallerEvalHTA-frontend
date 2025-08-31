@@ -3,7 +3,7 @@ import 'package:http/http.dart' as http;
 
 class TiempoService {
   //static const _baseUrl = 'http://192.168.1.38:8000';
-  static const String _baseUrl = 'https://tallerevalhta-913203481005.europe-west1.run.app';
+  static const String _baseUrl = 'https://tallerevalhta-336670815560.europe-west1.run.app';
   static const String _endpoint = 'tiempos_inferencia';
 
   static Future<Map<String, double>> obtenerTiempos() async {

@@ -4,7 +4,7 @@ import '../models/roc_curve.dart';
 
 class AucService {
   //static const _baseUrl = 'http://192.168.1.38:8000';
-  static const String _baseUrl = 'https://tallerevalhta-913203481005.europe-west1.run.app';
+  static const String _baseUrl = 'https://tallerevalhta-336670815560.europe-west1.run.app';
   static const String _endpoint = 'auc_curvas'; // ✅ Ruta correcta
 
   static Future<Map<String, RocCurve>> obtenerCurvas() async {

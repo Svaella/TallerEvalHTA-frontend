@@ -3,7 +3,7 @@ import 'package:http/http.dart' as http;
 
 class ApiService {
   //static const _baseUrl = 'http://192.168.1.38:8000';
-  static const _baseUrl = 'https://tallerevalhta-913203481005.europe-west1.run.app';
+  static const _baseUrl = 'https://tallerevalhta-336670815560.europe-west1.run.app';
 
   static Future<Map<String, dynamic>> predecirHTA(
     Map<String, dynamic> factors,
